@@ -18,7 +18,7 @@ public class Main {
     public static void task1(Scanner sc) {
         System.out.print("Press 0 or 1: ");
         byte clientOS = sc.nextByte();
-        System.out.println(clientOS == 0 ? "Install the iOS version of the app by following the link." : "Install the Android version of the app by following the link. \n");
+        System.out.println(clientOS == 0 ? "Install the iOS version of the app by following the link. \n" : "Install the Android version of the app by following the link. \n");
     }
 
     //TASK 2
@@ -75,6 +75,46 @@ public class Main {
 
     //TASK 5
     public static void task5 (Scanner sc) {
-
+        System.out.print ("Введите номер месяца года: ");
+        int monthNumber = sc.nextInt();
+        switch (monthNumber){
+            case 1:
+                System.out.println(monthNumber + " месяц принадлежит сезону Зима");
+                break;
+            case 2:
+                System.out.println(monthNumber + " месяц принадлежит сезону Зима");
+                break;
+            case 3:
+                System.out.println(monthNumber + " месяц принадлежит сезону Весна");
+                break;
+            case 4:
+                System.out.println(monthNumber + " месяц принадлежит сезону Весна");
+                break;
+            case 5:
+                System.out.println(monthNumber + " месяц принадлежит сезону Весна");
+                break;
+            case 6:
+                System.out.println(monthNumber + " месяц принадлежит сезону Лето");
+                break;
+            case 7:
+                System.out.println(monthNumber + " месяц принадлежит сезону Лето");
+                break;
+            case 8:
+                System.out.println(monthNumber + " месяц принадлежит сезону Лето");
+                break;
+            case 9:
+                System.out.println(monthNumber + " месяц принадлежит сезону Осень");
+                break;
+            case 10:
+                System.out.println(monthNumber + " месяц принадлежит сезону Осень");
+                break;
+            case 11:
+                System.out.println(monthNumber + " месяц принадлежит сезону Осень");
+                break;
+            case 12:
+                System.out.println(monthNumber + " месяц принадлежит сезону Зима");
+                break;
+            default: System.out.println("Месяца с таким номером не существует, глянь в календарь!)");
+        }
     }
 }
